@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col, ListGroup, ListGroupItem} from "reactstrap";
-import logo from "../../assets/images/logo1.png";
+import logo from "../../assets/images/logo.png";
 
 import "../../styles/footer.css";
 import { Link } from 'react-router-dom';
@@ -17,18 +17,18 @@ const Footer = () => {
           </Col>
 
           <Col lg="3" md="4" sm="6">
-          <h5 className='footer__tittle'>TUTI FOOD</h5>
+          <h5 className='footer__tittle'>TUTI SHOP</h5>
           <ListGroup className='deliver__time-list'>
           <ListGroupItem className='delivery__time-item1 border-0 ps-0'>
-          <p><span className='bold'>Địa chỉ: </span>381 Sư Vạn Hạnh Phường 12 Quận 10</p> 
+          <p><i class="ri-map-pin-line"> </i> 381 Sư Vạn Hạnh Phường 12 Quận 10</p> 
           </ListGroupItem>
 
           <ListGroupItem className='delivery__time-item1 border-0 ps-0'>
-          <p><span className='bold'>Điện thoại: </span>(028) 7825786</p>
+          <p><i class="ri-phone-line"> </i>(028) 7825786</p>
           </ListGroupItem>
 
           <ListGroupItem className='delivery__time-item1 border-0 ps-0'>
-          <p><span className='bold'>Hòm thư góp ý: </span>foodtuti@gmail.com.vn</p>
+          <p><i class="ri-mail-line"> </i>foodtuti@gmail.com.vn</p>
           </ListGroupItem>
           </ListGroup>
           </Col>

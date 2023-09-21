@@ -6,11 +6,12 @@ import Menu from "../pages/Menu";
 import Khuyenmai from "../pages/Khuyenmai";
 import Gioithieu from "../pages/Gioithieu";
 import FoodDetails from "../pages/FoodDetails";
-import Cart from "../pages/Cart";
+import Cart from "../pages/Order";
 import Checkout from "../pages/Checkout";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import Order from '../pages/Order';
 
 const Routers = () => {
     return <Routes>
@@ -20,7 +21,7 @@ const Routers = () => {
         <Route path="/khuyenmai" element={<Khuyenmai />} />
         <Route path="/gioithieu" element={<Gioithieu />} />
         <Route path="/foods/:id" element={<FoodDetails />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/order" element={<Order />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
